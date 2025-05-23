@@ -41,6 +41,4 @@ int main() {
     std::cout << "Plain Text is: " << plaintext << std::endl;
     std::cout << "Shift pattern is: " << n << std::endl;
     std::cout << "Cipher Text is: " << encrypt_text(plaintext, n) << std::endl;
-
-    return 0;
 }
